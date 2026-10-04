@@ -4,12 +4,14 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
+    - name: te9no
+      url-base: https://github.com/te9no
     - name: cormoran
       url-base: https://github.com/cormoran
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: edf5c0814fd3ea202e43aad2d68fd32e882a518c
+      remote: te9no
+      revision: main
       import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
