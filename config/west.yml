@@ -9,9 +9,8 @@ manifest:
   projects:
     - name: zmk
       remote: cormoran
-      revision: v0.3-branch+custom-studio-protocol+ble
-      import:
-        file: app/west.yml
+      revision: main
+      import: app/west.yml
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: 8756cb7b8114069fa3c25c6f6c990f24988fceff
